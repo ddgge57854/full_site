@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  تایید خرید</title>
+    <link rel="stylesheet" href="css/taied_k_css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container my-5">
+        <!-- نوار پیشرفت -->
+        <div class="d-flex justify-content-between mb-4">
+          <div class="step completed">
+            <div class="circle">1</div>
+            <p class="mt-2">مشخصات</p>
+          </div>
+          <div class="step completed">
+            <div class="circle">2</div>
+            <p class="mt-2">آدرس</p>
+          </div>
+          <div class="step completed">
+            <div class="circle">3</div>
+            <p class="mt-2">پرداخت</p>
+          </div>
+          <div class="step active">
+            <div class="circle">4</div>
+            <p class="mt-2">تأیید</p>
+          </div>
+        </div>
+      
+        <!-- تأیید پرداخت -->
+        <div class="card shadow rounded-4 border-0 p-4 text-center" style="background-color: #ffffff;">
+          <h5 class="mb-3 text-success">پرداخت با موفقیت انجام شد!</h5>
+          <p class="mb-4">سفارش شما با موفقیت ثبت گردید و به زودی پردازش خواهد شد.</p>
+      
+          <div class="alert alert-success rounded-3">
+            <strong>شماره سفارش:</strong>  #14520<br>
+            <strong>روش پرداخت:</strong> پرداخت آنلاین<br>
+            <strong>مبلغ پرداختی:</strong> ۲۸۵٬۰۰۰ تومان
+          </div>
+      
+          <a href="web.html" class="btn btn-success mt-3 px-4">بازگشت به صفحه اصلی</a>
+        </div>
+      </div>
+      <div class="toast show position-fixed bottom-0 end-0 m-3" role="alert" style="z-index: 1055;">
+  <div class="toast-header bg-success text-white">
+    <strong class="me-auto">پیام</strong>
+    <small></small>
+    <button type="button" class="btn-close btn-close-white ms-2 mb-1" data-bs-dismiss="toast"></button>
+  </div>
+  <div class="toast-body">
+    عملیات با موفقیت انجام شد!
+  </div>
+</div>
+     
+</body>
+</html>

@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>درباره ما | هلث پلاس</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/sbase_web.css">
+  <style>
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background-color: #f9fbfc;
+      color: #333;
+    }
+    .navbar {
+      background: #ffffff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .navbar-brand {
+      font-weight: 700;
+      color: #2e7d32 !important;
+      font-size: 1.6rem;
+    }
+    .nav-link {
+      font-weight: 500;
+      color: #444 !important;
+      transition: color 0.3s;
+    }
+    .nav-link:hover {
+      color: #2e7d32 !important;
+    }
+    .hero {
+      background: linear-gradient(135deg, #c8e6c9, #a5d6a7);
+      padding: 80px 0;
+      text-align: center;
+      color: #1b5e20;
+      border-radius: 0 0 50px 50px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+      color: #2e7d32;
+    }
+    .about-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .about-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-right: 30px;
+    }
+    .about-content div {
+      max-width: 600px;
+    }
+    .footer {
+      background: #2e7d32;
+      color: white;
+      padding: 25px 0;
+      margin-top: 60px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <img src="pic/hel1.png" width="100px" height="100px" alt="">
+      <a class="navbar-brand" href="web.html">هلث پلاس</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="web.html">خانه</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bb">محصولات</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">درباره ما</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">تماس با ما</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>درباره داروخانه آنلاین هلث پلاس</h1>
+      <p>ما بهترین و معتبرترین محصولات دارویی، آرایشی و بهداشتی را با کیفیت عالی و قیمت مناسب به شما ارائه می‌دهیم.</p>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about-us py-5">
+    <div class="container">
+      <h2 class="section-title">درباره ما</h2>
+      <div class="about-content">
+        <img src="pic/m_1.jpg" width="500px" height="300px" alt="Our Store">
+        <div>
+          <p>هلث پلاس یک داروخانه آنلاین است که هدف ما ارائه محصولات بهداشتی، دارویی و مکمل‌های غذایی با کیفیت عالی به مشتریان محترم است. ما تلاش می‌کنیم که همواره محصولات جدید و با کیفیت بالا را برای سلامت شما فراهم کنیم. هدف ما ارائه خدماتی سریع، آسان و مطمئن است تا خریدی راحت و بی‌دغدغه را تجربه کنید.</p>
+          <p>در هلث پلاس، تیم ما با دقت و بررسی‌های کامل، محصولات مورد نیاز شما را انتخاب کرده و در دسترس شما قرار می‌دهد. ما همیشه در تلاشیم تا به نیازهای سلامتی شما پاسخ دهیم و خرید آنلاین شما را به یک تجربه عالی تبدیل کنیم.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <div class="container my-5">
+    <h3 class="text-center mb-4 text-success fw-bold">سؤالات متداول</h3>
+    <div class="accordion accordion-flush shadow rounded-4" id="faqAccordion">
+  
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+            چگونه می‌توانم سفارشم را پیگیری کنم؟
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            پس از ثبت سفارش، یک کد رهگیری برای شما ارسال می‌شود که از طریق پنل کاربری قابل مشاهده است.
+          </div>
+        </div>
+      </div>
+  
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+            آیا امکان پرداخت در محل وجود دارد؟
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            بله، در تهران و شهرهای منتخب، پرداخت در محل به صورت نقدی یا کارت‌خوان امکان‌پذیر است.
+          </div>
+        </div>
+      </div>
+  
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+            چگونه می‌توانم داروهای خاص را سفارش دهم؟
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            برای سفارش داروهای خاص نیاز به نسخه پزشک دارید. از طریق بخش ارسال نسخه در پنل کاربری اقدام نمایید.
+          </div>
+        </div>
+      </div>
+  
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour">
+            ارسال سفارش چقدر زمان می‌برد؟
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            زمان ارسال معمولاً بین ۱ تا ۳ روز کاری متغیر است. برای شهرهای بزرگ، ارسال سریع‌تر انجام می‌شود.
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  
+  <!-- Bootstrap JS (ضروری برای باز و بسته شدن آکاردئون) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container text-center">
+      <p>&copy; 2025 هلث پلاس. تمامی حقوق محفوظ است.</p>
+    </div>
+  </footer>
+
+
+<!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
